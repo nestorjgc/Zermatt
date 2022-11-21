@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zermatt</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Metrophobic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/logo.png" />
+  </head>
+  <body>
+    <nav id="navbar-black">
+      <img src="assets/logo.png" alt="logo" class="logo2" />
+      <a href="#" class="logo"> Switzerland - Zermatt </a>
+
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="">Destinations</a></li>
+        <li><a href="">Things to do</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="page.html">Reservations</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="container">
+        <video
+          src="assets/cover.mp4"
+          class="video"
+          id="p2"
+          autoplay
+          loop
+          muted
+        ></video>
+        <div class="absolute-main">
+          <h1 class="h1-zermatt">Reservations:</h1>
+          <form target="" method="post">
+            <label for="fname">Enter your First Name: </label>
+            <input type="text" name="fname" id="fname" required />
+            <label for="lname">Enter your Last Name: </label>
+            <input type="text" name="lname" id="lname" required />
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city" />
+            <label for="state">State:</label>
+            <select name="state" id="state">
+              <option value="california">California</option>
+              <option value="alaska">Alaska</option>
+              <option value="hawaii">Hawaii</option>
+            </select>
+            <label for="zipcode" class="zipcode">Zipcode:</label>
+            <input type="text" name="zipcode" id="zipcode" class="zipcode" />
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              class="email"
+            />
+            <label for="pnumber">Phone:</label>
+            <input type="text" name="pnumber" id="pnumber" />
+
+            <label for="age">Age:</label>
+            <select name="age" id="age">
+              <option value="under18">Under 18</option>
+              <option value="18-25">18-25</option>
+              <option value="26-35">26-35</option>
+              <option value="36-45">36-45</option>
+              <option value="46-55">46-55</option>
+              <option value="56">56+</option>
+            </select>
+
+            <label for="date" class="date">Date:</label>
+            <input type="date" name="date" id="date" />
+            <label for="guests">Guests:</label>
+            <input type="number" name="guests" id="guests" />
+            <label for="comment" class="comment">Comment:</label>
+            <textarea name="comment" id="comment" cols="30" rows="3"></textarea>
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </section>
+
+      <table>
+        <tr>
+          <th>Population</th>
+          <th>Geographic size</th>
+          <th>Average Temps</th>
+        </tr>
+        <tr>
+          <td>5,775</td>
+          <td>242.67 km</td>
+          <td>61F / 42F</td>
+        </tr>
+        <tr></tr>
+      </table>
+    </main>
+  </body>
+</html>

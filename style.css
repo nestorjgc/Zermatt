@@ -6,7 +6,6 @@
 
 .h1-zermatt {
   background-color: rgb(71, 120, 144);
-  width: 47%;
   margin: 1% auto;
 }
 
@@ -22,7 +21,10 @@
   margin: 1% auto;
 }
 
-h3 {
+h3,
+table,
+th,
+td {
   text-align: center;
   background-color: #477890;
   padding: 1%;
@@ -46,7 +48,7 @@ hr {
 
 .container {
   width: 100%;
-  height: 100vh;
+  height: 130vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -84,7 +86,7 @@ video {
   color: #fff;
   position: absolute;
   font-size: 40px;
-  margin-top: 250px;
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -181,7 +183,7 @@ nav ul li {
   float: left;
   width: 30%;
   margin-left: 4%;
-  filter: drop-shadow(black 2px 4px 6px);
+  filter: drop-shadow(2px 4px 6px);
   margin-bottom: 1%;
 }
 
@@ -219,4 +221,43 @@ small {
   display: flex;
   font-weight: bold;
   margin: 3% auto;
+}
+
+form {
+  width: 500px;
+  height: 100%;
+  background-color: #fafafa;
+  border-radius: 33px;
+  color: black;
+  padding: 5%;
+  font-size: 0.5em;
+}
+
+input {
+  padding: 1%;
+  border-radius: 33px;
+}
+
+input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px auto;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select {
+  width: 25%;
+  font-size: 1em;
+}
+
+.zipcode,
+.date,
+.comment {
+  display: block;
+  padding: 1%;
+  width: 35%;
+  margin: 2% auto;
 }
